@@ -1,0 +1,187 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>PHANTOM Gaming Academy</title>
+    <link rel="icon" href="website/opera.jpg">
+    <style>
+    body{
+        margin: 0px;
+      }
+      #header{
+        background: #000;
+      }
+
+      #header ul{
+        color: #fff;
+        display: inline;
+        margin: 0px;
+        padding: 0px;
+      }
+
+      #header ul li{
+        display: inline-block;
+        padding: 0px 35px;
+        font-family: Georgia;
+        color: gold;
+      }
+
+      #daftar{
+        position: absolute;
+        right: 0px;
+      }
+      
+      .wrapper{
+        position: relative;
+        max-width: 1024px;
+        margin: 0 auto;
+      }
+
+      #videoArea{
+        background: #c3c3c3;
+      }
+      #titleVideo, .centerVertically{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
+      div#titleVideo {
+          width: 100%;
+          background: #ddd5d5b8;
+          padding-top: 35px;
+          padding-bottom: 35px;
+      }
+
+      #partner{
+        padding: 25px 10px; 
+        background: #000; 
+      }
+      #partner h1{
+          color: gold;
+      } 
+      .imgDivision{
+        height: 100px;
+        width: 200px;
+      }
+
+      #article .wrapper{
+        display: table;
+    
+      }
+      .floatLeft{
+        float: left;
+        width: 48%;
+        padding: 1%;
+        
+      }
+      .floatRight{
+        float: right;
+        width: 48%;
+        padding: 1%;
+        color: black;
+        font-size: 16;
+        text-align: center;
+        
+      }
+
+      #maps{
+        padding: 15px 0px;
+        background-color: #c3c3c3;
+      }
+      #contact{
+        background: #000;
+      }
+      form{
+        padding: 15px 0px;
+      }
+      .blocking{
+        display: block;
+        padding: 15px 0px;
+        color: gold;
+      }
+      #contact .wrapper{
+          text-align: center;
+          font-family: Georgia;
+      }
+      #contact .wrapper h3{
+          color: gold;
+      }
+      </style>
+  </head>
+
+  <body>
+    <div id="header">
+      <div class="wrapper" >
+        <img src="website/operalogo.jpg" alt="operalogo" style="height: 100px"/>
+        <ul class="centerVertically">
+          <li><strong><em>ABOUT</em></strong></li>
+          <li><strong><em>LOCATION</em></strong></li>
+          <li><strong><em>CONTACT</em></strong></li>
+          <li><strong><em>FORUM</em></strong></li>
+        </ul>
+        <button id="daftar" class="centerVertically">JOIN NOW</button>
+      </div>
+    </div>
+    <div id="videoArea">
+      <div class="wrapper">
+        <video style="width: 100%" autoplay muted>
+          <source src="website/video.mp4" type="video/mp4">
+        </video>
+        <div id="titleVideo">
+          <center>
+            <h1>
+                BECOMING THE BEST PRO-GAMER IN THE WORLD
+            </h1>
+            <h3>
+                The first ever pro-gaming academy in Indonesia
+            </h3>
+          </center>
+        </div>
+      </div>
+    </div>
+    <div id="partner">
+      <center>
+          <h1>DIVISION</h1>
+          <img class="imgDivision" src='website/division1.jpg'/>
+          <img class="imgDivision" src='website/division2.png'/>
+          <img class="imgDivision" src='website/division3.png'/>
+          <img class="imgDivision" src='website/division4.jfif'/>
+      </center>
+    </div>
+
+    <div id="article">
+      <div class="wrapper">
+          <img class="floatLeft" src="website/gaming.jpg"/>
+          <div class="floatRight">
+              <p>
+                  <h3>OPERA Gaming Academy</h3>
+                  OPERA Gaming Academy is the first ever pro-gaming academy in Indonesia. We will train you to become the best pro-gamer in the world with the help of our staff and coach
+              </p>
+          </div>
+      </div>  
+    </div>
+
+    <div id="maps">
+      <div class="wrapper">
+        <h3>Location</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.985362203296!2d106.7806667141267!3d-6.26565486308282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f1a5f61dd045%3A0x50053688a9440383!2sPondok+Indah+Mall+2!5e0!3m2!1sen!2sid!4v1532876154940" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <div id="contact">
+      <div class="wrapper">
+        <form action="#" method="GET">
+          <h3>Tell us about your gaming passion</h3>
+          <label class="blocking"><strong>Your Email</strong></label>
+          <input type="text" name="inputEmail" placeholder="your email" style="width: 350px; padding: 10px; font-size: 14px"/>
+          <label class="blocking"><strong>Message</strong></label>
+          <textarea name="inputMessage" style="width: 350px; height: 100px; padding: 10px; font-size: 14px"></textarea>
+          <div>
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
+    </div>
+    
+  </body>
+</html>
